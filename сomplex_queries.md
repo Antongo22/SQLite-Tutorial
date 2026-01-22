@@ -177,3 +177,5 @@ LEFT JOIN items ON orders.ItemId = items.Id
 GROUP BY User.Id
 ORDER BY "Общая сумма покупок" DESC;
 ```
+
+тут нам выведет строчку с пользователем Anna, несмотря на то, что у неё нет купленных товаров
